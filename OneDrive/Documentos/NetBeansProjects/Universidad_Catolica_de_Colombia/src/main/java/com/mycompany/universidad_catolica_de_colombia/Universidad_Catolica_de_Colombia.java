@@ -11,6 +11,6 @@ package com.mycompany.universidad_catolica_de_colombia;
 public class Universidad_Catolica_de_Colombia {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Hello");
     }
 }
