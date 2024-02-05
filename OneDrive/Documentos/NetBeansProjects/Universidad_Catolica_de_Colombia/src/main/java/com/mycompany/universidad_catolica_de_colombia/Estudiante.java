@@ -8,12 +8,13 @@ package com.mycompany.universidad_catolica_de_colombia;
  *
  * @author diego
  */
-public class Universdad_Catolica {
+public class Estudiante {
      private int Id_Estudiante;
      private String Nombres;
      private String Apellidos;
      
-     public Universdad_Catolica (int Id_Estudiante,String Nombres,String Apellidos){
+     
+     public Estudiante (int Id_Estudiante,String Nombres,String Apellidos){
          
          this.Id_Estudiante=Id_Estudiante;
          this.Nombres=Nombres;
