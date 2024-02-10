@@ -3,22 +3,21 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.lab_1;
-import com.mycompany.lab_1.Volar;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  *
  * @author diego
  */
 public class Canario extends Ave {
-
-    @Override
-    public void makeSound() {
-        System.out.println("Canta");
-    }
-
     
-    public void Vuela() {
-        System.out.println("Vuela con alas");
+    public static final Logger logger = LoggerFactory.getLogger(Canario.class);
+    
+    public Canario(){
+      logger.debug("instanciando un canario");
+      tipoSonido = new Canto();
+      tipoVuelo = new VueloConAlas();
     }
-
 }

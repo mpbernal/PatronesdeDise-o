@@ -7,18 +7,18 @@ package com.mycompany.lab_1;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
 /**
  *
  * @author diego
  */
-public class Gallina extends Ave {
+public class VueloConAlas implements TipoVuelo {
     
-    public static final Logger logger = LoggerFactory.getLogger(Gallina.class);
+    public static final Logger logger = LoggerFactory.getLogger(VueloConAlas.class);
     
-    public Gallina (){
-       logger.debug("intanciando una gallina");
-       tipoSonido = new Grasnido ();
-       tipoVuelo = new VueloConAlas();
+    @Override
+    public void Vuelo(){
+       logger.debug("Esta volando, aleteando");
+       System.out.println("Esta volando, aleteando");
     }
+    
 }

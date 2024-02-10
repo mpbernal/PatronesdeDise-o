@@ -4,21 +4,24 @@
  */
 package com.mycompany.lab_1;
 
-import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
+
 
 
 /**
  *
  * @author diego
  */
-public class Gallina extends Ave {
+public class Grasnido implements TipoSonido {
     
-    public static final Logger logger = LoggerFactory.getLogger(Gallina.class);
+    public static final Logger logger = LoggerFactory.getLogger(Grasnido.class);
     
-    public Gallina (){
-       logger.debug("intanciando una gallina");
-       tipoSonido = new Grasnido ();
-       tipoVuelo = new VueloConAlas();
+    
+    @Override
+    public void makeSound(){
+        logger.debug("grasnado");
+        System.out.println("grasnado");
     }
+    
 }
