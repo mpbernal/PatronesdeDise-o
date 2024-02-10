@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.lab_1;
+import com.mycompany.lab_1.Volar;
 
 /**
  *
@@ -15,7 +16,7 @@ public class Gallina extends Ave {
     System.out.println("Grasna");
     }
       
-     @Override
+     
     public void Vuela(){
     System.out.println("Vuela con alas");
     }
