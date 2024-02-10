@@ -10,6 +10,7 @@ package com.mycompany.lab_1;
  */
 public abstract class Ave {
     
-   public abstract void makeSound(); 
+   public abstract void makeSound();
+   public abstract void Vuela();
     
 }

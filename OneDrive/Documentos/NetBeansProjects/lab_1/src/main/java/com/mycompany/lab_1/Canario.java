@@ -15,4 +15,9 @@ public class Canario extends Ave {
     System.out.println("Canta");
     }
     
+    @Override
+    public void Vuela(){
+    System.out.println("Vuela con alas");
+    }
+    
 }
