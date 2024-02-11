@@ -19,6 +19,12 @@
             <version>1.0.1</version>
             <type>jar</type>
         </dependency>
+        <dependency>
+            <groupId>org.scala-js</groupId>
+            <artifactId>scalajs-junit-test-runtime_2.11</artifactId>
+            <version>1.12.0</version>
+            <type>jar</type>
+        </dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -11,18 +11,22 @@ import com.mycompany.lab_1.TipoSonido;
  */
 public abstract class Ave {
     
-  TipoSonido tipoSonido;
-  TipoVuelo tipoVuelo;
-  
-  public void realizVuelo(){
-  
-      tipoVuelo.Vuelo();
-  }
-  
-  public void realizaSonido(){
-  
-      tipoSonido.makeSound();
-  }
-   
-    
+ private TipoSonido tipoSonido;
+ private TipoVuelo tipoVuelo;
+ 
+ public void setTipoSonido(TipoSonido tipoSonido){
+     this.tipoSonido = tipoSonido;
+ }
+ 
+ public void setTipoVuelo(TipoVuelo tipoVuelo){
+     this.tipoVuelo = tipoVuelo;
+ }
+ 
+ public void realizaVuelo(){
+     tipoVuelo.Vuelo();
+ }
+ 
+ public void realizaSonido(){
+     tipoSonido.makeSound();
+ }
 }
